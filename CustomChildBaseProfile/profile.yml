@@ -1,0 +1,10 @@
+description: The child profile for Miscellanous use
+repositories:
+    - "https://repo.grails.org/grails/core2"
+build:
+    plugins:
+        - org.grails.grails-web
+    exlcudes:
+        - org.grails.grails-core
+        - eclipse
+
